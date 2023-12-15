@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>M/A - Portfolio</title>
+    <link rel="icon" href="./assets/LOGO_DARK (2).png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <div id="mouse_follow"></div>
+    <div id="scroll_top"><i class="uil uil-arrow-up"></i></div>
+
+    <div id="nav_burger" style="display: none;">
+        <ul id="menu_list">
+            <a class="a_nav"><i class="uil uil-times"></i></a>
+            <li><a class="a_nav" href="#about">About Me</a></li>
+            <li><a class="a_nav" href="#skills">Skills</a></li>
+            <li><a class="a_nav" href="#project">Projects</a></li>
+            <li><a class="a_nav" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="div_small">
+        <nav id="nav_small">
+            <img src="./assets/LOGO_PF.png" alt="logo">
+            <i id="icon_burger" class="uil uil-bars"></i>
+        </nav>
+    </div>
+
+    <header>
+
+        <!-- NAVBAR -->
+
+        <nav id="nav_full">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <img src="./assets/LOGO_PF.png" alt="logo">
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- HERO SECTION -->
+
+        <div class="main_header">
+            <!-- <div id="side_town">
+                <i id="i_town" class="uil uil-map-marker"></i>
+                <p id="p_town">Montreal, CA</p>
+                <hr>
+            </div> -->
+            <div class="header_title">
+                <p id="p_name">Hello! <span>Matthieu</span>, Digital Artisan.</p>
+                <div id="side_town">
+                    <i id="i_town" class="uil uil-map-marker"></i>
+                    <p id="p_town">Montreal, CA.</p>
+                </div>
+                <h1 id="main_title">Unleashing <br><span data-value="Creativity" id="header_span">Creativity</span> <br>through Code.</h1>
+                <div class="btn_p">
+                    <div>
+                        <p>FRONT-END DEVELOPER</p>
+                        <p>WEB DESIGNER</p>
+                    </div>
+                    <a href="./assets/CVDev - ENG.pdf" download="CVDev - ENG.pdf"><button><i class="uil uil-import"></i>  Resume</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <!-- ABOUT ME -->
+        
+        <section id="about">
+            <h1 class="title_effect1">ABOUT ME</h1>
+            <div class="about_me">
+                <div class="about_p">
+                    <p>I am Matthieu Audo, a web developer with a creative mindset, focusing on front-end development. I am self-taught, acquiring my skills through various online resources. My unconventional professional journey allows me to bring a unique perspective to web development. I am passionate about creating engaging and user-friendly experiences, and I constantly strive to push the boundaries of what's possible in the digital world.<br> <!--Beyond coding, my life is enriched by a love for sports, photography, and the great outdoors. These hobbies not only provide balance to my technical pursuits but also inspire creativity and a fresh outlook on life.</p> -->
+                </div>
+                <div class="photo_me">
+                    <img src="./assets/PHOTO_ME4.png" alt="photo of me">
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+
+        <section id="skills">
+            <h1 class="title_effect2">SKILLS</h1>
+            <div class="skills_container">
+                <div class="skills_card">
+                    <i class="uil uil-desktop-alt"></i>
+                    <h3>Langage & Framework</h3>
+                    <ul>
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
+                        <li>Javascript ES6</li>
+                        <li>React.js</li>
+                    </ul>
+                </div>
+                <div class="skills_card">
+                    <i class="uil uil-cog"></i>
+                    <h3>Tools & Librairies</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Github</li>
+                        <li>Bootstrap</li>
+                        <li>Gsap</li>
+                    </ul>
+                </div>
+                <div class="skills_card">
+                    <i class="uil uil-globe"></i>
+                    <h3>Conception & Integration</h3>
+                    <ul>
+                        <li>SEO</li>
+                        <li>Figma</li>
+                        <li>UI/UX Design</li>
+                        <li>Responsive Web Design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT -->
+
+        <section id="project">
+            <h1 class="title_effect3">PROJECTS</h1>
+            <div class="project_container">
+                <div class="project_card project_card_1">
+                    <div class="project_card_title">
+                        <h3>Gaming Subscription</h3>
+                        <p class="project_card_p">Embarking on a gaming subscription project, deliver an exciting and interactive platform for gaming enthusiasts.</p>
+                        <p class="tools">HTML</p>
+                        <p class="tools">CSS</p>
+                        <p class="tools">JS</p>
+                    </div>
+                    <a href="https://mattz56.github.io/Gaming_Subscription/" target="_blank" rel="noopener noreferrer">
+                        <i class="uil uil-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="project_card project_card_2">
+                    <div class="project_card_title">
+                        <h3>Matthieu Photography</h3>
+                        <p class="project_card_p">This website is a personal creation dedicated to showcasing my photos.</p>
+                        <p class="tools">HTML</p>
+                        <p class="tools">CSS</p>
+                        <p class="tools">JS</p>
+                        <p class="tools">Gsap</p>
+                    </div>
+                    <a href="https://mattz56.github.io/Matthieu_Photography/" target="_blank" rel="noopener noreferrer">
+                        <i class="uil uil-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="project_card project_card_3">
+                    <div class="project_card_title">
+                        <h3>Jimmy Reiki</h3>
+                        <p class="project_card_p">My first website, is centered around well-being.</p>
+                        <p class="tools">HTML</p>
+                        <p class="tools">CSS</p>
+                        <p class="tools">JS</p>
+                    </div>
+                    <a href="https://jimmy-reiki.000webhostapp.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="uil uil-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1 class="title_effect">CONTACTS</h1>
+            <div class="contact_container">
+                <h3>Crafting digital excellence with cutting-edge front-end skills.<br> Reach out and let's shape your vision together!</h3>
+                <div id="mail_copied">
+                    <p>Mail Copied !</p>
+                </div>
+                <div class="contact_icons">
+                    <a href="https://github.com/Mattz56" target="_blank"><i class="uil uil-github"></i></a>
+                    <a href="https://www.linkedin.com/in/matthieu-audo-23438b148" target="_blank"><i class="uil uil-linkedin"></i></a>
+                    <i id="copy_mail" class="uil uil-at"></i>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footy">
+            <p>Matthieu Audo website 2023 &copy; All rights reserved.</p>
+        </div>
+    </footer>
+
+
+<script src="app.js"></script>
+<script src="gsap.js"></script>
+
+</body>
+</html>
