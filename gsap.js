@@ -92,7 +92,7 @@ tl.from('.project_card',
         y: -200,
         opacity: 0,
         stagger: 0.3,
-        duration: 3,
+        duration: 2,
         ease: "power2.out",
         scrollTrigger: {
             trigger: '#project',
